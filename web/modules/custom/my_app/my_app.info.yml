@@ -1,0 +1,5 @@
+name: My App
+type: module
+description: A placeholder module for embedding a JS app, includes Vue.js.
+package: Custom
+core_version_requirement: ^9

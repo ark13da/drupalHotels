@@ -1,0 +1,14 @@
+{% embed "paragraph.html.twig" %}
+  {% block paragraph %}
+    <div{{ attributes.addClass(classes) }}>
+      {% block content %}
+        {# Pick one of these: #}
+        {# The Vue.js option. #}
+        {# {{ attach_library('my_app/my_app') }} #}
+        {# The React.js option. #}
+        {{ attach_library('my_react_app/my_react_app') }}
+        <div id="root"></div>
+      {% endblock %}
+    </div>
+  {% endblock paragraph %}
+{% endembed %}
